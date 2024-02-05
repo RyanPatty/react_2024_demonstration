@@ -1,0 +1,68 @@
+.dashboard-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #F5F5F5;
+  }
+  .top-bar {
+    position: relative;
+    width: 100%;
+    height: 137px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #908E8E;
+  }
+  .calendar-feature {
+    position: absolute;
+    width: 279px;
+    height: 56px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 53px;
+  }
+  .search-feature {
+    position: absolute;
+    width: 419px;
+    height: 48px;
+    left: 231px;
+    top: 53px;
+  }
+  .profile-feature {
+    position: absolute;
+    width: 260px;
+    height: 61px;
+    right: 20px;
+    top: 53px;
+  }
+
+  /*.sidebar is a class selector. It targets any element that has a class of sidebar.*/
+  .sidebar {
+    position: absolute;
+    width: 162px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This will center the icons horizontally */
+    padding-top: 10px; /* Add some space at the top of the sidebar */
+  }
+  
+  
+/*
+img is a type selector. It targets all img elements.
+When you combine them as .sidebar img, it means: "Apply these styles to all img elements that are within the scope of the sidebar class selector"
+*/
+.sidebar img {
+  margin-bottom: 20px; /* This will add space between each icon */
+  width: 48px; /* Set a fixed width for all icons */
+  height: 48px; /* Set a fixed height for all icons */
+}
+
+
+  
+
+
+
+
+  
